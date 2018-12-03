@@ -13,7 +13,14 @@
             "compilerPath": "D:\\minGW\\bin\\gcc.exe",
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "clang-x64"
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "D:\\minGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++"
+
+                ]
+            }
         }
     ],
     "version": 4
