@@ -5,7 +5,7 @@ using namespace std;
 int main(void)
 {
     int x,y;
-    cin >> x >> y>> endl;
+    cin >> x >> y >> endl;
     cout << x;
     cout << y;
 
