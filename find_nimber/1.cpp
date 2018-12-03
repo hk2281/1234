@@ -27,7 +27,7 @@ int main()
         }   
         else 
         {
-            cout << "\nThat's is you number" << tries << "exelent\n";
+            cout << "\nThat's is you number" << tries << "\texelent\n";
         }
     }while (guess != secretNumber);
 
