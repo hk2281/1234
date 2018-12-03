@@ -3,14 +3,10 @@
 #include <ctime>
 
 using namespace std ;
+
 int main()
-<<<<<<< HEAD
 {   
     srand (time(0));
-=======
-{
-    srand(static_cast<unsigned int>(time(0)));
->>>>>>> 05ab454b581e3aa4622ee327943c153de78e74b3
     int secretNumber = rand() % 100 + 1;
     int tries = 0;
     int guess;
@@ -23,11 +19,11 @@ int main()
         ++tries;
         if(guess > secretNumber)
         {
-            cout<< "Too high\n\n";
+            cout<< "you input high\n\n";
         }
         else if (guess < secretNumber)
         {
-            cout << "Too low\n\n";
+            cout << "you input low\n\n";
         }   
         else 
         {
