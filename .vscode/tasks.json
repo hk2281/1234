@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g,", "1.cpp"
+                "-g,", "find_nimber\\1.cpp"
             ],
             "group": {
                 "kind": "build",

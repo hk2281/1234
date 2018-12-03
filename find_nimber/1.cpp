@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-
+#include <cosio.h>
 using namespace std ;
 
 int main()
@@ -10,7 +10,7 @@ int main()
     int secretNumber = rand() % 100 + 1;
     int tries = 0;
     int guess;
-    cout<< "\twelcome to Guess my number\n\n";
+    cout<< "\twelcome to Guess my number\n\n"<< secretNumber<< endl;
 
     do 
     {
@@ -32,4 +32,5 @@ int main()
     }while (guess != secretNumber);
 
     return 0;
+    _getch();
 }
