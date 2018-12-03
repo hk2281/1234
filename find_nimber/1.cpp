@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-#include <cosio.h>
+#include <conio.h>
 using namespace std ;
 
 int main()
