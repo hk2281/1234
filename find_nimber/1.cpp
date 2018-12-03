@@ -4,7 +4,7 @@ using namespace std ;
 int main()
 {
     srand(static_cast<unsigned int>(time(0)));
-    intsecretNumber = rand() % 100 + 1;
+    int secretNumber = rand() % 100 + 1;
     int tries = 0;
     int guess;
     cout<< "\twelcome to Guess my number\n\n";
@@ -12,7 +12,7 @@ int main()
     do 
     {
         cout<< "Enter a guess: ";
-        cin >> guess:
+        cin >> guess;
         ++tries;
         if(guess > secretNumber)
         {
