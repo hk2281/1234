@@ -5,12 +5,12 @@ using namespace std;
 int main(void)
 {
     int x,y;
-    cin >> x >> y >> endl;
+    cin >> x;
     cout << x;
     cout << y;
 
-    return 0;
-}
-for (init; condition; increment){
+    
+    for (init; condition; increment){
     statemen(s);
+    return 0;
 }
