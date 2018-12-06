@@ -21,7 +21,10 @@ int  main()
     {
         cout << "u number out of renge: ";
         cin >> unkndownNum;
-    }while(unkndownNum < startGap || unkndownNum > finishGap);
+        return unkndownNum;
+    }while(true);
+
+    cout << "dd";
 
     check_condition(); 
     
