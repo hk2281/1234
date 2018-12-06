@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g,", "find_nimber\\2.cpp"
+                "-g,", "solo\\binarySearch.cpp"
             ],
             "group": {
                 "kind": "build",
