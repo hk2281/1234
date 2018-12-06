@@ -1,13 +1,11 @@
 #include <iostream>
 #include <cstdlib>
-#include "check.cpp"
+//#include "check.cpp"
 using namespace std;
 
 int unkndownNum, startGap, finishGap, startPoint;
-int  main(void)
+int  main()
 {   
-    
-
     cout << "enter u secret number: " ; 
     cin >> unkndownNum; 
     cout << "enter range\nstart point  of range: " ; 
@@ -23,11 +21,13 @@ int  main(void)
         cout << "u number out of renge: ";
         cin >> unkndownNum;
         break;
-    }while(unkndownNum < startGap || unkndownNum > finishGap);
+    }while(unkndownNum > startGap || unkndownNum < finishGap);
 
-    cout << "hello"; 
-
-    check_condition(); 
+    if(unkndownNum < startGap)
+    {
+        startPoint += ((startPoint-startGap)/2);
+        cout << "sartPoint: "<< startPoint << endl;
+    } 
     
     return 0;
 }
