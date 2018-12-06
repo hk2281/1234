@@ -4,9 +4,10 @@
 using namespace std;
 
 int unkndownNum, startGap, finishGap, startPoint;
-int  main()
+int  main(void)
 {   
     
+
     cout << "enter u secret number: " ; 
     cin >> unkndownNum; 
     cout << "enter range\nstart point  of range: " ; 
@@ -21,10 +22,10 @@ int  main()
     {
         cout << "u number out of renge: ";
         cin >> unkndownNum;
-        return unkndownNum;
-    }while(true);
+        break;
+    }while(unkndownNum < startGap || unkndownNum > finishGap);
 
-    cout << "dd";
+    cout << "hello"; 
 
     check_condition(); 
     
