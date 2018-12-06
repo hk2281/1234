@@ -7,9 +7,9 @@ using namespace std;
 int main()
 {   
     int unkndownNum, startGap, finishGap, startPoint;
-    cout << "enter range\nstart point  of range: " << endl;
-    cout << "finish point  of range: " <<  endl;
+    cout << "enter range\nstart point  of range: " ; 
     cin >> startGap;
+    cout << "finish point  of range: " ;
     cin >> finishGap;
     startPoint = ((finishGap-startGap)/2)+startGap;
     cout << " start point: "<<startPoint<< endl;
