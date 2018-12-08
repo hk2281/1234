@@ -12,7 +12,12 @@ int main()
     do
     {
         cout << "hi"<< endl;
-        break;
+        if (a<b)
+        {
+            cout <<"a; ";
+            cin>>a;
+        }
+        
     }while(a>b && b >c);
 
     if(a >b )

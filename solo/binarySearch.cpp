@@ -21,7 +21,7 @@ int  main()
         cout << "u number out of renge: ";
         cin >> unkndownNum;
         break;
-    }while(unkndownNum > startGap || unkndownNum < finishGap);
+    }while(unkndownNum < startGap || unkndownNum > finishGap);
 
     if(unkndownNum < startGap)
     {
