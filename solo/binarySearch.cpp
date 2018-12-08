@@ -22,9 +22,9 @@ int  main()
         {
             cout << "u number out of renge: ";
             cin >> unkndownNum;
-        }break;
+        }
     
-    }while(true);
+    }while(unkndownNum > startGap && unkndownNum < finishGap);
 
     if(unkndownNum < startGap)
     {
