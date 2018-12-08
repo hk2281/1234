@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g,", "ff.cpp"
+                "-g,", "solo//binarySearch.cpp"
             ],
             "group": {
                 "kind": "build",
