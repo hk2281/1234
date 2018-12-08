@@ -15,22 +15,32 @@ int  main()
     // нахождение точки входа
     startPoint = ((finishGap-startGap)/2)+startGap;
     cout << " start point: "<<startPoint<< endl;
-
-    do
-    {
-        if(unkndownNum < startGap || unkndownNum > finishGap)
-        {
-            cout << "u number out of renge: ";
-            cin >> unkndownNum;
-        }
     
-    }while(unkndownNum > startGap && unkndownNum < finishGap);
-
-    if(unkndownNum < startGap)
+    while(unkndownNum < startGap||unkndownNum > finishGap)
     {
-        startPoint += ((startPoint-startGap)/2);
-        cout << "sartPoint: "<< startPoint << endl;
-    } 
+        cout<<"u enter uncorect unknodown Number:";
+        cin >> unkndownNum;
+    }
+
+    cout <<"a"<< endl;
+
+    // if(unkndownNum  startGap)
+    // {
+    //     int a = ((startPoint-startGap)/2) + startPoint;
+    //     cout << "startPoint: "<< a << endl;
+    // } 
+
+    int a,b,c;
+    cout << "a: "<< endl;
+    cin >> a;
+    cin >> b;
+    cin >> c;
+
+    if (a<b)
+    {
+        cout <<"a: ";
+        cin>>a;
+    }
     
     return 0;
 }
