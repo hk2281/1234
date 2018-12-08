@@ -16,7 +16,7 @@ int main()
         {
             cout <<"a; ";
             cin>>a;
-        }
+        }break;
         
     }while(a>b && b >c);
 

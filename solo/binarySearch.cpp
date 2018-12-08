@@ -3,9 +3,9 @@
 //#include "check.cpp"
 using namespace std;
 
-int unkndownNum, startGap, finishGap, startPoint;
 int  main()
 {   
+    int unkndownNum, startGap, finishGap, startPoint;
     cout << "enter u secret number: " ; 
     cin >> unkndownNum; 
     cout << "enter range\nstart point  of range: " ; 
@@ -18,9 +18,11 @@ int  main()
 
     do
     {
-        cout << "u number out of renge: ";
-        cin >> unkndownNum;
-        break;
+        if(unkndownNum < startGap || unkndownNum > finishGap)
+        {
+            cout << "u number out of renge: ";
+            cin >> unkndownNum;
+        }
     }while(unkndownNum < startGap || unkndownNum > finishGap);
 
     if(unkndownNum < startGap)
