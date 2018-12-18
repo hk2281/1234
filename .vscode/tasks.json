@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g,", "solo//expl.cpp"
+                "-g,", "stepic//7.cpp"
             ],
             "group": {
                 "kind": "build",
